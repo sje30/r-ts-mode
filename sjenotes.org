@@ -1,0 +1,10 @@
+## ~/langs/emacs/r-ts-mode.el
+## (normal-mode)
+## (list-faces-display)
+
+## eval-buffer will not update rules.  Have to C-M-x within variable 
+
+## ~/NOBACKUP/compiles/emacs/admin/notes/tree-sitter/starter-guide
+
+## which-function-mode shows name of current defun in the mode line.
+## this comes for free.
