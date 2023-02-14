@@ -68,6 +68,20 @@ threshold(x) <- 0.4
 x
 
 
+## Example of a function within a function
+## imenu behaves a bit oddly here.
+fn5 <- function(a, b) {
+
+  add <- function(x, y) {
+    x+y
+  }
+
+  add(a, b) + 1
+}
+
+
+fn5(3, 5)
+
 ## Things to do:
 ## I like the ESS way of commenting, with #, ##, and ###.
 ## (Like the elisp convention.)  How can we add this?
